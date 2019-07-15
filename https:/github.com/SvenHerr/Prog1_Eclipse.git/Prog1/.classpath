@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="uebungen_SS18"/>
 	<classpathentry kind="src" path="Alt_Klausuren"/>
 	<classpathentry kind="src" path="UebungenVon_R"/>
+	<classpathentry kind="src" path="uebungen_WS18-19"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
