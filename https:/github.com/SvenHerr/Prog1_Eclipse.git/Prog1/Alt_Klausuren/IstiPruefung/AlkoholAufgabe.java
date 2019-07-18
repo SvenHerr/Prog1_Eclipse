@@ -19,11 +19,11 @@ public class AlkoholAufgabe
 		
 		double r = 0.0;
 		
-		if(g != 'm') 
+		if(g == 'm') 
 		{
 			r = 0.7;
 		}
-		else if(g != 'w') 
+		else if(g == 'w') 
 		{
 			r = 0.6;
 		}
