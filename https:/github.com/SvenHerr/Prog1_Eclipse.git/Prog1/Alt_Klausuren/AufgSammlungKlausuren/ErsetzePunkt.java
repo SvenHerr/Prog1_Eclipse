@@ -3,7 +3,7 @@ package AufgSammlungKlausuren;
 public class ErsetzePunkt 
 {
 	static String name =  "Graphik.Init.Datei.ini";
-	static char[] dateiName = name.toCharArray();
+	static char[] dateiName1 = name.toCharArray();
 	
 	public static int ersetze(char [] dateiName) 
 	{
@@ -21,7 +21,8 @@ public class ErsetzePunkt
 		{
 			if(dateiName[i] == '.') 
 			{
-				dateiName[i] = '_';
+				dateiName1[i] = '_';
+				//dateiName[i] = '_';
 				result++;
 			}
 		}
@@ -31,10 +32,15 @@ public class ErsetzePunkt
 	
 	public static void main(String[]args) 
 	{
-		String name =  "Graphik.Init.Datei.ini";
+		String name =  "Graphik.Init.Datei.txtxt";
 		char[] dateiName = name.toCharArray();
-		System.out.println(ersetze(dateiName));
-		String result = new String(dateiName);
+		System.out.println("Anzahl umgewandelter Punkte: " +ersetze(dateiName));
+		//String result = new String(dateiName);
+		/*for(int i = 0; i < dateiName.length; i++) 
+		{
+			System.out.print(dateiName[i]);
+		}*/
+		String result = new String(dateiName1);
 		System.out.println(result);
 	}
 }

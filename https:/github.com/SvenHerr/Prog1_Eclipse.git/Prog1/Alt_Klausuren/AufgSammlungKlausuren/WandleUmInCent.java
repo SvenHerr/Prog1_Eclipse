@@ -7,6 +7,7 @@ public class WandleUmInCent
 		betrag = betrag.replace(",", "");
 		
 		int k = Integer.valueOf(betrag);
+		
 		String s1 = String.valueOf(k);
 		char[] result = s1.toCharArray();
 		
