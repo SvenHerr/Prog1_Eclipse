@@ -1,4 +1,4 @@
-package IstiPruefung;
+package AufgSammlungKlausuren;
 
 import java.util.Scanner;
 

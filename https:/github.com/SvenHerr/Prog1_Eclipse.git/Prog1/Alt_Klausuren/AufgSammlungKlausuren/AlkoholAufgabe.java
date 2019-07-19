@@ -1,4 +1,4 @@
-package IstiPruefung;
+package AufgSammlungKlausuren;
 
 public class AlkoholAufgabe 
 {
