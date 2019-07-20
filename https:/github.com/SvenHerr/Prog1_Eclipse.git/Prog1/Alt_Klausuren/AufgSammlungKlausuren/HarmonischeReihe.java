@@ -1,6 +1,6 @@
 package AufgSammlungKlausuren;
 
-public class harmonischeReihe 
+public class HarmonischeReihe 
 {
 	public static void main(String[]args) 
 	{
