@@ -39,6 +39,7 @@ public class SpaceInvader
 			feld[4][value] = "v";
 			
 		}
+		//if(c == 'a' && value < feld[0].length)
 		else if(c == 'd' && value < 7) 
 		{
 			feld[4][value] = " ";
@@ -69,10 +70,16 @@ public class SpaceInvader
 		Scanner scan = new Scanner(System.in);
 		
 		char c = 'o';
+		String test = "";
 		do 
 		{
-			c = scan.nextLine().charAt(0);
-			s.bewege(c);
+			test = scan.nextLine();
+			if(test != null && !test.equals("")) 
+			{
+				c= test.charAt(0);
+				s.bewege(c);
+			}
+			
 			System.out.println(s.toString());
 		}
 		while(c != 'x');
